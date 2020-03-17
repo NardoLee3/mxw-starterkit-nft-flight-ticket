@@ -1,0 +1,16 @@
+{
+  "name": "create",
+  "version": "1.0.0",
+  "description": "flight",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd src && tsc NFT_FlightTicket.ts && node NFT_FlightTicket",
+    "adv": "cd src && tsc NFT_FlightTicket_Adv.ts && node NFT_FlightTicket_Adv"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mxw-sdk-js": "^0.8.0"
+  }
+}
